@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/src/sys/plugin-schema.json",
+  "name": "wishlist-sale-forecast",
+  "common_name": "Wishlist Sale Forecast",
+  "description": "Shows how much a Steam wishlist will cost at the next seasonal sale, based on prices from past seasonal sales (data: IsThereAnyDeal)",
+  "version": "1.0.0",
+  "backendType": "lua"
+}
