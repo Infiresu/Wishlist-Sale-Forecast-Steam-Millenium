@@ -2,14 +2,12 @@
 
 A [Millennium](https://steambrew.app/) plugin for the Steam client. Open any Steam wishlist, yours or a friend's, and see **how much the whole list is likely to cost at the next seasonal Steam sale**.
 
-[Русская версия](README.ru.md)
-
-![The forecast panel on a wishlist page](docs/panel.png)
+<img width="476" height="1111" alt="panel" src="https://github.com/user-attachments/assets/a82e4b98-50ee-4d44-b158-766650c71089" />
 
 ## Features
 
 - **Expected total at the next seasonal sale** (spring, summer, autumn, winter), with the price without discounts and the percentage you save.
-- **Your own currency.** Prices use the region of the person viewing the page, so a viewer in Ukraine sees hryvnias even on a US friend's wishlist. You can pick another price region from the panel at any time.
+- **Your own currency.** Prices use the region of the person viewing the page, so a viewer in US sees dollars even on a JP friend's wishlist. You can pick another price region from the panel at any time.
 - **Per-game breakdown** with the expected discount, the sale it comes from, and the final price. Sort it by name, discount or price by clicking the header.
 - **Click a game to leave it out** of the total (and click again to add it back). Your choices are remembered per wishlist.
 - **A clear "not counted" list.** Unreleased and free games, games that were never discounted, games with no price in your region, and games unknown to IsThereAnyDeal are listed separately, each with the reason.
@@ -34,11 +32,17 @@ For every game the plugin takes the **lowest discount seen during the most recen
 **From the Millennium plugin store:** open the plugin store in Millennium, find *Wishlist Sale Forecast* and install it.
 
 **Manually:** download `wishlist-sale-forecast-<version>.zip` from the [Releases](../../releases) page, unpack the `wishlist-sale-forecast` folder into `Steam/plugins/`, enable it in **Millennium → Plugins** and restart Steam.
+<img width="529" height="304" alt="image" src="https://github.com/user-attachments/assets/ce748379-2e22-44e8-bbdf-37009820e97e" />
+
 
 ## Setup
 
 1. Sign in at [isthereanydeal.com](https://isthereanydeal.com/), open **Apps → Register App** and copy the **API Key** (not the OAuth Client ID).
+<img width="1920" height="2759" alt="ITAD API setup" src="https://github.com/user-attachments/assets/2acdc108-7e6e-4890-8777-43826f3f2158" />
+
 2. In Steam, open **Millennium → Plugins → Wishlist Sale Forecast**, paste the key and press **Save**.
+<img width="2320" height="1070" alt="ITAD API setup 2" src="https://github.com/user-attachments/assets/86d30f61-9545-4f0e-9754-a42a6b3ff015" />
+
 3. Open any public wishlist in the Steam client store. The panel appears in the bottom right corner.
 
 ## Privacy
