@@ -2,9 +2,7 @@
 
 A [Millennium](https://steambrew.app/) plugin for the Steam client. Open any Steam wishlist, yours or a friend's, and see **how much the whole list is likely to cost at the next seasonal Steam sale**.
 
-[Русская версия](README.ru.md)
-
-![The forecast panel on a wishlist page](docs/panel.png)
+<img width="476" height="1111" alt="panel" src="https://github.com/user-attachments/assets/a82e4b98-50ee-4d44-b158-766650c71089" />
 
 ## Features
 
