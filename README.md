@@ -2,12 +2,14 @@
 
 A [Millennium](https://steambrew.app/) plugin for the Steam client. Open any Steam wishlist, yours or a friend's, and see **how much the whole list is likely to cost at the next seasonal Steam sale**.
 
-<img width="476" height="1111" alt="panel" src="https://github.com/user-attachments/assets/a82e4b98-50ee-4d44-b158-766650c71089" />
+[Русская версия](README.ru.md)
+
+![The forecast panel on a wishlist page](docs/panel.png)
 
 ## Features
 
 - **Expected total at the next seasonal sale** (spring, summer, autumn, winter), with the price without discounts and the percentage you save.
-- **Your own currency.** Prices use the region of the person viewing the page, so a viewer in US sees dollars even on a JP friend's wishlist. You can pick another price region from the panel at any time.
+- **Your own currency.** Prices use the region of the person viewing the page, so a viewer in Ukraine sees hryvnias even on a US friend's wishlist. You can pick another price region from the panel at any time.
 - **Per-game breakdown** with the expected discount, the sale it comes from, and the final price. Sort it by name, discount or price by clicking the header.
 - **Click a game to leave it out** of the total (and click again to add it back). Your choices are remembered per wishlist.
 - **A clear "not counted" list.** Unreleased and free games, games that were never discounted, games with no price in your region, and games unknown to IsThereAnyDeal are listed separately, each with the reason.

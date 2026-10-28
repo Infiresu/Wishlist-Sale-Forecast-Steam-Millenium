@@ -91,12 +91,20 @@ const SettingsContent = () => {
           if (e.key === 'Enter') void saveKey();
         }}
       />
-      <ButtonItem label={t.saveItad} onClick={() => void saveKey()} />
-      {settings.hasItadKey && <ButtonItem label={t.removeItad} onClick={() => void writeKey('')} />}
+      <ButtonItem layout="below" onClick={() => void saveKey()}>
+        {t.saveItad}
+      </ButtonItem>
+      {settings.hasItadKey && (
+        <ButtonItem layout="below" onClick={() => void writeKey('')}>
+          {t.removeItad}
+        </ButtonItem>
+      )}
 
       <div style={{ height: '16px' }} />
 
-      <ButtonItem label={t.clearCache} description={t.clearCacheDesc} onClick={() => void clearCache()} />
+      <ButtonItem layout="below" description={t.clearCacheDesc} onClick={() => void clearCache()}>
+        {t.clearCache}
+      </ButtonItem>
     </div>
   );
 };
