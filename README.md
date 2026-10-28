@@ -4,6 +4,10 @@ A [Millennium](https://steambrew.app/) plugin for the Steam client. Open any Ste
 
 <img width="476" height="1111" alt="panel" src="https://github.com/user-attachments/assets/a82e4b98-50ee-4d44-b158-766650c71089" />
 
+## Disclaimer about AI
+AI was actively used in the development process. 
+Tested several times in various situations, with clear Millenium and several installed plugins + themes - no issues were observed.
+
 ## Features
 
 - **Expected total at the next seasonal sale** (spring, summer, autumn, winter), with the price without discounts and the percentage you save.
